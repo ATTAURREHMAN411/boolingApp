@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Send video to the background */
+}
+
+/* Content on Top of the Video */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Add overlay */
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+}
+.container{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 70px;
+    /* margin-bottom: 100px; */
+}
+.flex{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    /* align-items: center; */
+}
+
+nav{
+    width: 99%;
+    height: 70px;
+    background-color: #882899;
+    display: flex;
+    justify-content: space-between;
+}
+.Nflex{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 60px;
+    width: 70px;
+      border-radius: 50%;
+    display: inline;
+}
+.image{
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    align-items: center;
+    margin-right: 40px;
+    font-family: "Red Hat Display", serif;
+    color: #fff;
+}
+.web{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-left: 20px;
+    font-family: "Lobster", serif;
+   font-size: 30px;
+   color: #fff;
+}
+
+
+
+
+
+
+
